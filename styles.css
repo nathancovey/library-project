@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Styles */
 
 * {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -96,4 +96,46 @@ h1 {
 .book-card .not-read-status {
     font-weight: bold;
     color: #FF0000;
+}
+
+#book-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#book-form input,
+#book-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.toggle-btn {
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.toggle-btn:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: #ffffff;
 }

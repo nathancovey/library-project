@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library</title>
+    <title>My Library</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <div class="container">
         <h1>My Library</h1>
+
+        <form id="book-form" class="hidden">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="number" id="pages" placeholder="Pages" required>
+            <div class="checkbox">
+                <label for="readBook">Read:</label>
+                <input type="checkbox" id="readBook">
+            </div>
+            <button type="submit">Add Book</button>
+        </form>
+
         <div id="book-display"></div>
     </div>
 
