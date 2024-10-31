@@ -79,7 +79,6 @@ bookForm.onsubmit = (e) => {
     
     addBookToLibrary(title, author, pages, readBook);
     bookForm.reset();
-    bookForm.classList.add('hidden');
 };
 
 // Example books
